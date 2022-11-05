@@ -1,4 +1,4 @@
-# Ask-a-Feminist :woman
+# Ask-a-Feminist :woman:
 
 ## What is this website all about?
 
