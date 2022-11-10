@@ -1,0 +1,159 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+
+/* nav-bar */
+* {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    position: relative;
+}
+.nav-bar {
+    background-color: black;
+    padding: 5px 20px 0 5px;
+}
+.nav-bar ul {
+    display: flex;
+}
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+}
+.nav-bar a:hover{
+    color: rgb(190,66,143);
+}
+.nav-bar-up {
+    height: 1.5rem;
+    justify-content: end;
+    align-items: center;
+}
+.nav-bar-up li {
+    margin-left: 20px;
+}
+.nav-bar-bottom{
+    height: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.nav-bar-bottom li {
+    margin: 0 40px 0 40px;
+}
+
+/* body */
+section, footer {
+    font-size: 1.5rem;
+}
+
+.sec-1 {
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.header {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+}
+.fem-icon {
+    width: 200px;
+    height: auto;
+}
+@media screen and (max-width: 1100px) {
+    .fem-icon {
+        display: none;
+    }
+}
+h1 {
+    display: inline-block;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+    font-size: 10rem;
+    margin-top: 30px;
+}
+h3 {
+    width: 60%;
+    margin: 50px auto 20px auto;
+    font-size: 1.5rem;
+}
+.submit-question {
+    font-family: 'Amatic SC', cursive;
+    font-size: 5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.submit-question:hover{
+    color: rgb(190,66,143);
+}
+
+/* body  */
+.body-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-top: solid 1px black;
+    padding-top: 30px;
+}
+/* tags */
+.tags {
+    width: 600px;
+    height: 400px;
+    display: inline-block;
+    padding: 0 30px 0 30px;
+}
+.tag-line {
+    border-bottom: solid 3px darkgrey;
+    text-align: center;
+    width: 500px;
+    background-color: lightgray;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 5px 0 5px 0;
+}
+.tags-collection {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.tags-collection img {
+    margin: 0 5px 0 5px;
+}
+.tags-collection span {
+    margin: 10px 10px 10px 10px;
+    padding: 5px 10px 5px 10px;
+    border: solid 2px lightgray;
+    border-radius: 5px;
+}
+.tags-collection span:hover{
+    background-color: rgb(190,66,143);
+    cursor: pointer;
+}
+
+.feminist-image{
+    display: inline-block;
+}
+.sdb {
+    width: 400px;
+}
+.mw {
+    width: 500px;
+}
+/* footer  */
+.site-footer {
+    background-color: black;
+    height: 3rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

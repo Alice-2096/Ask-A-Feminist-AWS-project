@@ -4,7 +4,9 @@
   "description": "## What is this website all about?",
   "main": "webpack.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack && webpack-dev-server --mode development",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
