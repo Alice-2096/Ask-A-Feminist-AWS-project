@@ -148,6 +148,13 @@ h3 {
 .mw {
     width: 500px;
 }
+.sample-blog {
+    width: 600px;
+}
+.sample-blog h1 {
+    font-size: 5rem;
+}
+
 /* footer  */
 .site-footer {
     background-color: black;
