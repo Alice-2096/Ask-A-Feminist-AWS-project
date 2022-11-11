@@ -36,4 +36,4 @@ const signup = function (e) {
 };
 
 const form = document.getElementById('form');
-form.addEventListener('submit', signup);
+form.addEventListener('submit', signup(e));
