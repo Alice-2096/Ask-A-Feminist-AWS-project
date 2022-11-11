@@ -19,11 +19,13 @@
   },
   "homepage": "https://github.com/Alice-2096/Ask-A-Philosopher-AWS-project#readme",
   "dependencies": {
+    "amazon-cognito-auth-js": "^1.3.3",
     "amazon-cognito-identity-js": "^5.2.12",
     "aws-amplify": "^4.3.43"
   },
   "devDependencies": {
     "copy-webpack-plugin": "^11.0.0",
+    "json-loader": "^0.5.7",
     "webpack": "^5.75.0",
     "webpack-cli": "^4.10.0",
     "webpack-dev-server": "^4.11.1"
