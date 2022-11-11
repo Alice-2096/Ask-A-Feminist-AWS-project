@@ -12,5 +12,6 @@ AaF is a fullstack web-based application using AWS services (Amplify for hosting
 
 - [x] frontend -- Homepage, registration page, Sign in page; deployed on AWS Amplify
 ![image](./demo/homepage.png)
-- [ ] backend logic for sign up and sign in. Use AWS Cognito for user authentication 
-- [ ] 
+- [ ] Created a userpool on AWS Cognito; 
+- [ ] AWS Lambda -- define request handlers
+- [ ] API Gateway -- connect url requests with lambda functions

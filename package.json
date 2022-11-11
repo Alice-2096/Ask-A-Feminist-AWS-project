@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Alice-2096/Ask-A-Philosopher-AWS-project#readme",
   "dependencies": {
+    "amazon-cognito-identity-js": "^5.2.12",
     "aws-amplify": "^4.3.43"
   },
   "devDependencies": {
