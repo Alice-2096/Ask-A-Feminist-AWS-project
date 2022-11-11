@@ -19,6 +19,7 @@ const signup = function (e) {
   userpool.signUp(email, password, attributeList, null, (err, result) => {
     if (!err) {
       console.log(result);
+      window.location.href = 'signin.html';
     } else {
       console.log(err || json.stringfy(err));
     }
