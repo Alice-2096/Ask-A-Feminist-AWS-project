@@ -1,3 +1,4 @@
+import { CognitoUserAttribute } from 'amazon-cognito-identity-js';
 import { json } from 'body-parser';
 import userpool from './userpool.js';
 
@@ -6,7 +7,9 @@ const signup = function (e) {
   const val = new FormData(form);
   //return 4 arrays: [name, data], [email, data], [password, data], [repeat-password, data]
   const email = val[1][1];
+  console.log('🚀 ~ file: signup.js ~ line 10 ~ signup ~ email', email);
   const password = val[2][1];
+  console.log('🚀 ~ file: signup.js ~ line 12 ~ signup ~ password', password);
   const username = val[0][1];
 
   var attributeList = [];
@@ -14,7 +17,11 @@ const signup = function (e) {
     Name: 'username',
     Value: username,
   };
-  attributeList.push(datausername);
+
+  var newUsernameAttribute = new AmazonCognitoIdentity.CognitoUserAttribute(
+    datausername
+  );
+  attributeList.push(newUsernameAttribute);
 
   userpool.signUp(email, password, attributeList, null, (err, result) => {
     if (!err) {
